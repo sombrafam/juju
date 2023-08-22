@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/juju/clock"
-	"github.com/juju/cmd/v3"
 	"github.com/juju/errors"
+	"github.com/juju/cmd/v3"
 	"github.com/juju/gnuflag"
 	"github.com/juju/retry"
 
@@ -26,7 +26,7 @@ import (
 )
 
 var usageSSHSummary = `
-Initiates an SSH session or executes a command on a Juju machine or container.`[1:]
+Initiates an SSH session or executes a command on a Juju machine or container`[1:]
 
 var usageSSHDetails = `
 The ssh target is identified by the <target> argument which is either a 'unit
